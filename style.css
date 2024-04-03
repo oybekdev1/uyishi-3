@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box-wrapper{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box-1{
+    width: 400px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 20px;
+    position:relative;
+    text-align: center;
+}
+
+.box-2{
+    width: 400px;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 20px;
+    position:relative;
+    text-align: center;
+}
+
+
+.box-3{
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.box-3::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 185px;
+    top: 300px;
+    background-image: url("./Без\ названия.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.box-3::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 82%;
+    top: 400px;
+    background-image: url("./png-transparent-quotation-marks-in-english-quote-mark-text-monochrome-computer-wallpaper-thumbnail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
